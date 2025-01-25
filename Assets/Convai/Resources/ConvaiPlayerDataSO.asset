@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ConvaiPlayerDataSO
   m_EditorClassIdentifier: 
   <DefaultPlayerName>k__BackingField: Player
-  <PlayerName>k__BackingField: 
+  <PlayerName>k__BackingField: Player
   <SpeakerID>k__BackingField: 
-  <CreateSpeakerIDIfNotFound>k__BackingField: 1
+  <CreateSpeakerIDIfNotFound>k__BackingField: 0

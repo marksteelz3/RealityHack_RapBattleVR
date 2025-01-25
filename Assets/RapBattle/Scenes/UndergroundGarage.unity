@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 959253269}
-  selectedTriggerIndex: 2
+  selectedTriggerIndex: 0
   availableTriggers:
   - T_LaundryRoom
   - T_Welcome
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 959253269}
-  selectedTriggerIndex: 8
+  selectedTriggerIndex: 0
   availableTriggers:
   - T_LaundryRoom
   - T_Welcome
@@ -949,7 +949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 959253269}
-  selectedTriggerIndex: 3
+  selectedTriggerIndex: 0
   availableTriggers:
   - T_LaundryRoom
   - T_Welcome
@@ -1248,7 +1248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 959253269}
-  selectedTriggerIndex: 6
+  selectedTriggerIndex: 0
   availableTriggers:
   - T_LaundryRoom
   - T_Welcome
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 959253269}
-  selectedTriggerIndex: 7
+  selectedTriggerIndex: 0
   availableTriggers:
   - T_LaundryRoom
   - T_Welcome
@@ -1741,7 +1741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 959253269}
-  selectedTriggerIndex: 5
+  selectedTriggerIndex: 0
   availableTriggers:
   - T_LaundryRoom
   - T_Welcome
@@ -1778,6 +1778,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.2803655, y: 4.221237, z: 4.614907}
   m_Center: {x: -0.04877925, y: 1.3365884, z: 1.092624}
+--- !u!1 &1203912422 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8280674425688398768, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6333420161025368695}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1357768597
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,7 +1830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 959253269}
-  selectedTriggerIndex: 4
+  selectedTriggerIndex: 0
   availableTriggers:
   - T_LaundryRoom
   - T_Welcome
@@ -2001,51 +2007,102 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
+      propertyPath: sectionDataList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: triggerDataList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
       propertyPath: sectionDataList.Array.data[0].objective
-      value: "Guide the user into the laundry room, emphasizing its practicality
-        and convenience. Highlight the high-end appliances, including the washing
-        machine and dryer, as well as the storage options like shelves, cabinets,
-        and a countertop, which make organizing laundry essentials easy.\n\nAfter
-        the introduction, ask for the user\u2019s thoughts and, if they have no further
-        questions, politely suggest moving to the Study Area."
+      value: 'Say this to the user:
+
+
+        "Alright, let''s get it. DJ, get a
+        fire beat going."
+
+
+        Then, rap for one verse about virtual reality.
+        After rapping a verse, say the following to the user:
+
+
+        "Let''s see
+        what you got."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[0].sectionId
+      value: cdc66e26-db55-11ef-8416-42010a7be016
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionDataList.Array.data[1].objective
-      value: "Describe the first bathroom, highlighting its modern design and high-quality
-        fixtures. Mention any notable features like elegant finishes. This bathroom
-        has two sinks and a toilet, no shower.\n\nAfter the introduction, ask for
-        the user\u2019s thoughts and, if they have no further questions, politely
-        suggest moving to the First Bedroom."
+      value: 'Say this to the user:
+
+
+        "Dam, that was some straight fire.
+        You''re gonna be up against the greats before you know it."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[1].sectionId
+      value: 619cc944-db59-11ef-9b2f-42010a7be016
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionDataList.Array.data[2].objective
-      value: "Show the study area, stressing its potential as a quiet, productive
-        space. Mention how it\u2019s ideal for working from home or studying, with
-        natural light and a peaceful environment.\n\nAfter the introduction, ask
-        for the user\u2019s thoughts and, if they have no further questions, politely
-        suggest moving to the First Bathroom."
+      value: Respond to what the user said, and then ask the user if they are ready
+        to start rapping now
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[2].sectionId
+      value: 786849d8-db62-11ef-9b2f-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[3].objective
+      value: Rap a final verse that contains various insults about the user. Wait
+        for them to rap back.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[3].sectionId
+      value: d285fd84-db58-11ef-9b2f-42010a7be016
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionDataList.Array.data[4].objective
-      value: "Show the second bedroom, focusing on its size and versatility. Mention
-        that it can serve as either a master bedroom or a guest room. Highlight the
-        ample storage options, and note that this bedroom also includes an ensuite
-        bathroom for added convenience.\n\nAfter the introduction, ask for the user\u2019s
-        thoughts and, if they have no further questions, politely suggest moving
-        to the Third Bathroom."
+      value: 'Say this paragraph to the user:
+
+
+        "Yo what''s good homie, glad
+        you could make it. You ready to spit some bars and work your way up to the
+        top of the freestyle rankings?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[4].sectionId
+      value: 01b3d3f8-db57-11ef-8578-42010a7be016
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionDataList.Array.data[5].objective
-      value: "Guide the user into the first bedroom, emphasizing its comfort and
-        versatility. Highlight its natural lighting and ample storage options. Mention
-        that the bedroom includes its own ensuite bathroom, making it ideal as a
-        guest room or a private retreat.\n\nAfter the introduction, ask for the user\u2019s
-        thoughts and, if they have no further questions, politely suggest moving
-        to the Second Bathroom."
+      value: Now, rap for another verse about MIT. Then, wait for the user to rap
+        back.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[5].sectionId
+      value: c6fcff12-db58-11ef-8c2c-42010a7be016
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
@@ -2085,6 +2142,121 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
+      propertyPath: triggerDataList.Array.data[0].triggerId
+      value: 027732dc-db5a-11ef-90ad-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[0].characterId
+      value: 3ec851a0-db53-11ef-89be-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[0].sectionName
+      value: Start rap battle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[1].characterId
+      value: 3ec851a0-db53-11ef-89be-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[1].sectionName
+      value: Outro
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[2].characterId
+      value: 3ec851a0-db53-11ef-89be-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[2].sectionName
+      value: Prompt to start rapping
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[3].characterId
+      value: 3ec851a0-db53-11ef-89be-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[3].sectionName
+      value: Final Verse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[4].characterId
+      value: 3ec851a0-db53-11ef-89be-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[4].sectionName
+      value: Welcome
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[5].characterId
+      value: 3ec851a0-db53-11ef-89be-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionDataList.Array.data[5].sectionName
+      value: Second Verse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: triggerDataList.Array.data[0].characterId
+      value: 3ec851a0-db53-11ef-89be-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: triggerDataList.Array.data[0].triggerName
+      value: trigger 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[0].id
+      value: cdc66e26-db55-11ef-8416-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[1].id
+      value: 619cc944-db59-11ef-9b2f-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[2].id
+      value: 786849d8-db62-11ef-9b2f-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[3].id
+      value: d285fd84-db58-11ef-9b2f-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[4].id
+      value: 01b3d3f8-db57-11ef-8578-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[5].id
+      value: c6fcff12-db58-11ef-8c2c-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: triggerDataList.Array.data[0].triggerMessage
+      value: Welcome
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: triggerDataList.Array.data[0].destinationSection
+      value: 01b3d3f8-db57-11ef-8578-42010a7be016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[7].onSectionEnd.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -2096,27 +2268,27 @@ PrefabInstance:
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[1].onSectionStart.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[2].onSectionStart.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[3].onSectionStart.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[4].onSectionStart.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[5].onSectionStart.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
@@ -2181,6 +2353,11 @@ PrefabInstance:
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[7].onSectionEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
@@ -2297,7 +2474,7 @@ PrefabInstance:
         type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1891495739}
+      objectReference: {fileID: 1203912422}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2550,6 +2727,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: ShowUIAfterTempHide
       objectReference: {fileID: 0}
@@ -2710,6 +2892,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: Convai.Scripts.Runtime.UI.UIAppearanceSettings, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -2815,6 +3002,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[13].onSectionStart.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
@@ -2871,6 +3063,11 @@ PrefabInstance:
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
         type: 3}
       propertyPath: sectionChangeEventsDataList.Array.data[7].onSectionEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
+        type: 3}
+      propertyPath: sectionChangeEventsDataList.Array.data[0].onSectionStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5228032823904016853, guid: 370910ebb1708584e983bfed2f1874ee,
@@ -5145,7 +5342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convaiNPC: {fileID: 959253269}
-  selectedTriggerIndex: 9
+  selectedTriggerIndex: 0
   availableTriggers:
   - T_LaundryRoom
   - T_Welcome
@@ -5343,7 +5540,16 @@ MonoBehaviour:
   convaiNPC: {fileID: 959253269}
   selectedTriggerIndex: 0
   availableTriggers:
-  - trigger 1
+  - T_LaundryRoom
+  - T_Welcome
+  - T_SecondBathroom
+  - T_Third Bathroom
+  - T_StudyArea
+  - T_FirstBathroom
+  - T_ChildRoom
+  - T_LivingArea
+  - T_SecondBedroom
+  - T_FirstBedroom
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -5525,6 +5731,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b7e90e3d9c786349a506be595f7387a, type: 3}
+--- !u!1001 &6333420161025368695
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1901828194725120715, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.6479073
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901828194725120715, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.75386226
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901828194725120715, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.316572
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901828194725120715, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901828194725120715, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901828194725120715, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901828194725120715, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901828194725120715, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901828194725120715, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901828194725120715, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8280674425688398768, guid: 87b587c943f79f44ea148ab0c6e1e3dd,
+        type: 3}
+      propertyPath: m_Name
+      value: Music Beat
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87b587c943f79f44ea148ab0c6e1e3dd, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -5540,3 +5814,4 @@ SceneRoots:
   - {fileID: 663005440}
   - {fileID: 5602139310106940872}
   - {fileID: 5203155893821921891}
+  - {fileID: 6333420161025368695}

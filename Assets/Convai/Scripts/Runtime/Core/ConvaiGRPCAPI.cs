@@ -607,12 +607,16 @@ namespace Convai.Scripts.Runtime.Core
             List<string> newEmotions = result.EmotionResponse.Split(' ').ToList();
             convaiNPC.convaiLipSync.SetCharacterEmotions(newEmotions);
         }
+        public string HumanRap;
+        public string RobotRap;
+
 
         private void ProcessUserQuery(GetResponseResponse result)
         {
             if (result.UserQuery != null)
             {
                 _currentTranscript = _isFinalUserQueryTextBuffer + result.UserQuery.TextData;
+                HumanRap = _currentTranscript;
                 if (result.UserQuery.IsFinal) _isFinalUserQueryTextBuffer += result.UserQuery.TextData;
 
                 if (result.UserQuery.EndOfResponse) _isFinalUserQueryTextBuffer = "";

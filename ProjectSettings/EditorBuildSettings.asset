@@ -8,12 +8,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 04eae7ccda2e78d4a81a10c43501f0df
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VR Scene.unity
     guid: 4c4e1824fc39ffb4da320a9d2757d8f3
   - enabled: 0
     path: Assets/Scenes/MR Scene.unity
     guid: 7415a9bd0a867c7458d86c0bdd56cccb
+  - enabled: 0
+    path: Assets/RapBattle/Scenes/UndergroundGarage.unity
+    guid: 42a5c16ad9d80f547ab90e80ad6e6a6f
+  - enabled: 1
+    path: Assets/RapBattle/Scenes/UndergroundGarage2.unity
+    guid: c785cad5f4efee64dad1dbbf8445d58a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 54f05df2b066ac14683b76d6aaefb4a3,
       type: 2}
